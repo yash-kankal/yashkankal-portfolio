@@ -1,0 +1,74 @@
+.Navbar{
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+
+margin: 20px 170px;
+
+}
+
+
+.menu-items{
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 15px;
+
+}
+
+
+.menu-connect{
+
+    padding: 9px 20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #8923E1 102.06%);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu-connect:hover{
+
+    transform: scale(1.05);
+}
+
+.logo-left{
+
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+}
+
+
+.logo-right{
+
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+
+
+    
+}
+
+.logo-middle{
+
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+}
+
+
+.logo{
+
+    display: flex;
+
+    font-size: 2rem;
+}
